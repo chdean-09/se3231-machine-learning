@@ -8,6 +8,10 @@ AFTER THAT, ANSWER THE FOLLOWING QUESTIONS:
 
 1. Does preprocessing affect the result of the model? Why?
 
+Yes, preprocessing significantly affects the results of KMeans clustering. Just like the methods I used in preprocessing (standardization, imputing NaN values, etc.) allowed the model to be more accurate. Without preprocessing, the KMeans would treat missing values as zeros or errors and be biased toward features with large numeric ranges.
+
 2. What is your conclusion based on the interpretation or result of your model?
+
+The clustering shows that properties can be grouped into distinct segments, possibly based on price, size, or region. Each cluster represents a different type of housing profile in Melbourne (e.g., low-cost vs luxury vs mid-range). PCA visualization confirms visible separation among clusters, indicating meaningful groupings.
 
 PUSH YOUR JUPYTER FILE AND ANSWERS ON YOUR REPO :)
